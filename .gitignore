@@ -10,3 +10,5 @@ bun.lockb
 bun.lock
 package-lock.json
 CLAUDE.md
+CLAUDE.local.md
+Config.yaml
