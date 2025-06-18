@@ -12,3 +12,4 @@ package-lock.json
 CLAUDE.md
 CLAUDE.local.md
 Config.yaml
+build/
