@@ -3,11 +3,28 @@
 
 ---
 
-# PopClip Extensions
+# PopClip Extensions (Fork)
 
-This repository contains the source files for most of the extensions published
-in the official
-[PopClip Extensions Directory](https://www.popclip.app/extensions/).
+[![GitHub](https://img.shields.io/badge/GitHub-shayonpal%2FPopClip--Extensions-blue)](https://github.com/shayonpal/PopClip-Extensions)
+[![Status](https://img.shields.io/badge/Status-Active-green)]()
+[![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey)]()
+[![Upstream](https://img.shields.io/badge/Fork%20of-pilotmoon%2FPopClip--Extensions-orange)](https://github.com/pilotmoon/PopClip-Extensions)
+
+This is a fork of the official [PopClip Extensions](https://github.com/pilotmoon/PopClip-Extensions) repository, containing the source files for extensions published in the [PopClip Extensions Directory](https://www.popclip.app/extensions/).
+
+## Fork Status & Contributions
+
+- **Merged PR**: [PR #1280](https://github.com/pilotmoon/PopClip-Extensions/pull/1280) - Added 'Use New Tab' functionality to RunCommand extension (merged May 29, 2025)
+- **Upstream**: Regularly synced with [pilotmoon/PopClip-Extensions](https://github.com/pilotmoon/PopClip-Extensions)
+
+## Recent Updates
+
+- **June 2025**: Successfully contributed 'Use New Tab' option for RunCommand extension to upstream
+- **May 2025**: Forked repository and began active development
+
+## Known Issues
+
+Currently no open issues. Check the [issues page](https://github.com/shayonpal/PopClip-Extensions/issues) for any new developments.
 
 ## Repository Layout
 
