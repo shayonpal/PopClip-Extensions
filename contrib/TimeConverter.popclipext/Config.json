@@ -1,0 +1,51 @@
+{
+  "regex": "^\\d{10}$|^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{3})?Z?$|^\\d{4}-\\d{2}-\\d{2}$|^\\d{1,2}/\\d{1,2}/\\d{4}$",
+  "description": "Automatically detects timestamp formats and converts to your preferred format.",
+  "identifier": "com.shayon.popclip.extension.time-converter",
+  "name": "Time Converter",
+  "icon": "time.png",
+  "module": "timeconverter.js",
+  "popclip version": 4225,
+  "options": [
+    {
+      "identifier": "outputFormat",
+      "label": "Output Format",
+      "type": "multiple",
+      "description": "Choose your preferred timestamp format",
+      "default value": "iso8601",
+      "values": ["iso8601", "customISO"],
+      "valueLabels": ["ISO 8601", "Custom Format"]
+    },
+    {
+      "identifier": "timezone",
+      "label": "Timezone",
+      "type": "multiple", 
+      "description": "Timezone for output",
+      "default value": "UTC",
+      "values": [
+        "UTC", "GMT", "WET", "CET", "EET", "SAST", "MSK", "TRT", "IRST", "GST", 
+        "AMT", "AFT", "PKT", "IST", "NPT", "BTT", "BST", "MMT", "ICT", "WIB", 
+        "CST", "HKT", "JST", "KST", "ACST", "AEST", "VLAT", "SBT", "NZST", 
+        "FJT", "CHAST", "TOT", "PHOT", "LINT", "NST", "AST", "EST", "CST", 
+        "MST", "PST"
+      ],
+      "valueLabels": [
+        "UTC±00:00", "GMT±00:00", "WET±00:00", "CET+01:00", "EET+02:00", 
+        "SAST+02:00", "MSK+03:00", "TRT+03:00", "IRST+03:30", "GST+04:00",
+        "AMT+04:00", "AFT+04:30", "PKT+05:00", "IST+05:30", "NPT+05:45", 
+        "BTT+06:00", "BST+06:00", "MMT+06:30", "ICT+07:00", "WIB+07:00",
+        "CST+08:00", "HKT+08:00", "JST+09:00", "KST+09:00", "ACST+09:30", 
+        "AEST+10:00", "VLAT+10:00", "SBT+11:00", "NZST+12:00", "FJT+12:00",
+        "CHAST+12:45", "TOT+13:00", "PHOT+13:00", "LINT+14:00", "NST−03:30",
+        "AST−04:00", "EST−05:00", "CST−06:00", "MST−07:00", "PST−08:00"
+      ]
+    },
+    {
+      "identifier": "customISO",
+      "label": "Custom Format Pattern",
+      "type": "string",
+      "description": "Only used when Output Format is 'Custom Format'. Examples: YYYY-MM-DD HH:mm:ss, MM/DD/YYYY, DD/MM/YYYY",
+      "default value": "YYYY-MM-DD HH:mm:ss"
+    }
+  ]
+}

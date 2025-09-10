@@ -9,4 +9,7 @@ scratch/
 bun.lockb
 bun.lock
 package-lock.json
+.serena/
+claude.md
+PLAN.md
 CLAUDE.md
